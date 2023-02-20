@@ -1,0 +1,123 @@
+﻿"Response number","How would you rate your agreement with the following statement: I enjoyed learning R as part of this module.","At this point in the course, how would you rate your anxiety levels around using R for statistical analysis?","How could the materials be improved to help you gain more confidence/reduce any anxiety around using R? ","Are there any further comments that you wish to add about the module at this stage"
+1,Disagree,"Not particularly anxious",demonstrations,
+2,Agree,"Not particularly anxious",none,"I would like a general discussion form."
+3,"Strongly disagree",Anxious,"detailed step by step",
+4,"Strongly agree","Not particularly anxious","I personally have been finding the material provided very useful as it is easy to understand and follow along. Most of this module requires alot of independent learning and self study, so perhaps along with the slides, some videos could be added of the lecturers further explaining concepts or solving problems step by step, for the slightly more difficult topics that people usually struggle with?",
+5,"Neither agree nor disagree","Very anxious","if the power points were a lot easier to understand that would have helped me understand it a lot more, Being in class would have been a lot more helpful than trying to learn by yourself and then only having 1 hour a week with lecturer to go over when there is over a hundred students is not helpful.",
+6,"Strongly agree","Not particularly anxious","R as a whole is ok to use we just need more practice to become more confident using it. Having alternative ways to use R might be helpful in the PowerPoints which could allow people to complete the questions before the tutorials so they can get help with the questions rather than how to work R to begin with.","The course is well planned and executed, the only thing I can think of would be having the working for the questions in the quiz available in the review section after the quiz which would allow us to check where we went wrong there and then rather than waiting for the tutorials."
+7,"Neither agree nor disagree","Very anxious","every week do a zoom where the lecturer goes over the questions quickly on how they got them",
+8,Disagree,"Not particularly anxious","Not sure, maybe an optional drop in session at the start to help go over basics a bit more",
+9,Agree,"Not particularly anxious","More video tutorials","No further comments"
+10,Agree,"Not particularly anxious","Give more varied examples in the PowerPoints to explain/show how to tackle more complicated questions",
+11,Agree,"Not particularly anxious","I feel that the materials we are given are more than adequate and so can&#039;t think of any improvements.",
+12,Disagree,"Not particularly anxious","I felt very lost using it to begin with so I think I probably just need to practice more",
+13,Agree,"Not particularly anxious","More worked examples",
+14,Agree,Anxious,"The lectures could perhaps include some more worked examples, but otherwise I think the materials are great and it is just a case of practicing lots to gain more confidence with R.",
+15,"Strongly agree","Not particularly anxious","More video tutorials of using R as sometimes powerpoints can be difficult to understand.",No
+16,"Strongly agree","Not particularly anxious","more questions for practice outside of the quizzes",
+17,"Strongly agree","Not particularly anxious","I think it could be more better to have some complex exercises explain on video in the same way that we have videos about the common errors in R. I know that we have some drop in sessions but having videos could help each of us in case we forgot some procedures about one of the complex exercises.","I am really learning something new and I am happy with that but I am upset for having loosing 6 marks in the passed assessment not because I didn&#039;t find the answer but just because I have not put at thee decimal places. I think if this process was used all over our quizzes I could be more aware of the situation and could not lost 6 marks"
+18,Agree,"Not particularly anxious","Possibly a recorded demonstration each week like in week 0 for extra support when needed.",
+19,Agree,"Not particularly anxious","some more examples for doing worked solutions in R",
+20,Agree,"Not particularly anxious","This way of learning it is good. It would be good if there were some review questions each week about the previous topics.","I really like it"
+21,Agree,Anxious,"It&#039;s well done in my opinion",
+22,Agree,"Not particularly anxious",none,
+23,"Neither agree nor disagree",Anxious,"videos explaining and more examples",
+24,"Strongly agree","Not particularly anxious","Okay as is for R.",
+25,Agree,"Not particularly anxious","Possibly videos explaining it rather than just the slides for additional help",
+26,Agree,"Not particularly anxious","More examples of different possible question types",
+27,"Strongly disagree",Anxious,"More video tutorials",
+28,"Strongly agree","Not particularly anxious","The materials are really good!",
+29,Agree,"Not particularly anxious","When an answer is incorrect i would like to know the process of getting the correct answer.",
+30,Agree,"Not particularly anxious",-,
+31,"Neither agree nor disagree","Not particularly anxious","I think the materials are fine",
+32,"Strongly agree","Not particularly anxious","Video tutorials of examples would be helpful rather than just written ones",
+33,Agree,"Not particularly anxious",none,
+34,Agree,"Not particularly anxious","I think the materials are good at explaining what you have to do",
+35,"Neither agree nor disagree",Anxious,"Materials are good and there is no improvement need to be made.",
+36,"Neither agree nor disagree",Anxious,n/a,
+37,Agree,"Not particularly anxious","Have more videos around using R rather than it mostly being PowerPoints.",
+38,"Neither agree nor disagree","Not particularly anxious","More examples and videos of lecture completing questions",
+39,"Neither agree nor disagree","Not particularly anxious","Further explanations? Videos?",
+40,Agree,"Not at all anxious","nothing, everything is perfect",
+41,"Strongly agree","Not particularly anxious","Video walkthroughs along with the PowerPoints on how to implement the code, like week 1.",
+42,Agree,"Not particularly anxious","Maybe add more example questions on the lecture slides.",
+43,Agree,"Not particularly anxious","include more demo videos",
+44,"Strongly agree","Not at all anxious","Personally, I had no issues",-
+45,Disagree,Anxious,"in person tutorials.",
+46,Disagree,Anxious,"Make the instructions simpler. I am finding it difficult to understand what is actually being asked of me",
+47,Disagree,"Very anxious",.,
+48,"Strongly disagree","Not particularly anxious","I believe that the materials for R specifically are very useful.",
+49,Agree,"Not particularly anxious","More examples",
+50,"Neither agree nor disagree",Anxious,"more examples should be given in lecture slides",
+51,"Strongly agree","Not particularly anxious","If possible maybe a screen recording could be made showing how exactly the data has been entered into R to help with confusion.",
+52,Agree,"Not particularly anxious","-Maybe more questions could be provided for practice, like more tutorial sheets. The variety of questions is already good though.",
+53,"Neither agree nor disagree",Anxious,"use more examples",
+54,Agree,"Not particularly anxious","maybe a powerpoint on r and all the commands etc that we might need to know so its all in the one place rather than throughout the lecture slides",
+55,Agree,"Not particularly anxious",-,-
+56,Agree,Anxious,"video answers uploaded at the end of each week as during the live its harder to ask questions and uploaded videos would allow you to rewatch while studying.",
+57,"Strongly agree","Not at all anxious","I think you guys give really good step by step instructions on the powerpoints which allows me to follow it really easily and if I do get an error message I know why by looking at the powerpoint again.",
+58,Agree,Anxious,"Maybe just a walkthrough tutorial at the start of the course just to show you how to set up r and enter commands so that you can follow along and ask questions if your stuck.","The staff were extremely helpful"
+59,Agree,"Not particularly anxious",-,-
+60,"Strongly agree","Not particularly anxious","The materials given for R are fine.","Some questions in the quizzes (especially for probability) have no examples or guidance in the modules and then I get stuck on them in the quizzes and I struggle to find help on google. As well as week 5. At least 3 questions had no examples in the pdfs. It would be really nice to have an example of every style of a question that could possibly come up in future quizzes and assessments."
+61,Agree,Anxious,"More demonstrations on R at the beginning of the week so we are more confident when it comes to the questions",
+62,Agree,"Not particularly anxious","All the materials available are already good.","Maybe include more worked examples in the lecture notes similar to the types of questions in the quizzes which require you to use multiple &amp;quot;methods&amp;quot;."
+63,Disagree,Anxious,"more drop sessions and more explanation.","it is so confusing."
+64,"Neither agree nor disagree","Not particularly anxious","Step-by-step tutorials",
+65,Agree,Anxious,"More support with getting used to &amp;quot;R&amp;quot; as it looks very intimidating to begin with.",N/A
+66,Disagree,"Not particularly anxious","more teaching materials provided",
+67,Disagree,"Not particularly anxious","more live lessons, there&#039;s too many possible errors and your just kind of left to figure them out on your own, whereas if every 2 weeks say, you had a lesson where you would go over mistakes and possible error points as well as going through questions",
+68,"Neither agree nor disagree","Not particularly anxious","I&#039;m not sure",
+69,"Neither agree nor disagree","Very anxious","Given slightly longer to complete the weekly work/ minimise workload slightly",
+70,Agree,"Not particularly anxious",n/a,n/a
+71,"Neither agree nor disagree",Anxious,"we could be given some material on how to fix an error on R as I sometimes feel it isn&#039;t clear",
+72,"Strongly agree","Not at all anxious","More video tutorials like week 1",no
+73,Disagree,"Not particularly anxious","I have no issues with the materials provided for this course",
+74,Agree,Anxious,"I think the materials are useful I am just not confident that I yet know what calculations to do when given a challenging question",
+75,Disagree,Anxious,"not sure",
+76,Agree,"Not particularly anxious","No comment",
+77,"Strongly agree","Not particularly anxious","Possibly reinforce things from previous weeks more in the new material - for example having to use the $ to select a column when you read in a dataset. Personally, I struggled to remember small things such as this before looking back over notes in the early weeks",
+78,Agree,"Not particularly anxious","Possibly videos going over examples.",
+79,Agree,Anxious,"I found R easy to use.","More information on slides to make quizzes easier, I feel sometimes it is just thrown at us and I struggle with this sometimes."
+80,Disagree,"Not particularly anxious","providing how-to videos based on what we are being asked to do that week with R",
+81,"Strongly agree","Not particularly anxious","They are good as they are.",
+82,"Neither agree nor disagree",Anxious,"I think live classes going through the quizzes question by question would be useful to see where we are going wrong and how to answer the questions correctly",
+83,Disagree,Anxious,"for each material give a  formula that help them to solve by their hands, if they having a problem using Rstudio.",
+84,"Neither agree nor disagree","Not particularly anxious","More video&#039;s to show just how R studio should be used in the lesson.",
+85,Agree,Anxious,"It should include a list of common mistakes that students may type in R and how to resolve these issues.",
+86,"Strongly agree","Not particularly anxious","summary sheets of all the codes in R we are required to use",
+87,Disagree,Anxious,"Live online lectures using the program",
+88,"Strongly agree","Not particularly anxious","To have the working shown if you get a question incorrect in the quizzes.",
+89,"Strongly agree","Not particularly anxious","I personally found it easier to follow what was happening in R after watching the videos that were pre-recorded for us in the first few topics of the statistics course, maybe there could be more of those for different things we are taught to do on R as well as the powerpoints.",
+90,"Strongly disagree","Not particularly anxious","do more videos to explain/ teach using R rather than just releasing quizzes and powerpoints each week as it takes a while trying to figure out what the PowerPoints are teaching and if there were videos explaining the powerpoints it would make it much easier to learn","i like doing the quizzes each week but it would be helpful to add worked answers in at the end of each quiz so that it would be clear where you get the answer from/ what you&#039;ve done wrong instead of just the answer as many times its difficult for me to see where I&#039;ve made mistakes"
+91,Agree,"Not particularly anxious",/,/
+92,"Neither agree nor disagree",Anxious,"recorded videos of using r and putting in the formulas and examples of each week 
+
+more examples that are relevant to the quizzes because the quizzes have harder questions usually than what is in the powerpoint.","I think its good so far just that there can be more recorded lectures and more examples shown of working  with  r questions and hard maths quiz questions that don&#039;t use R."
+93,"Strongly agree",Anxious,"more videos and examples",
+94,"Neither agree nor disagree",Anxious,"more r demos or recorded r sessions to help understand",
+95,Agree,"Very anxious","Have clearer instructions on the lectures as they don&#039;t correlate with the teachings","the lecture slides don&#039;t actually show you how to work out the questions and for someone who has never done maths or any other statistics subject this just makes me really anxious about the subject in general. The lack of time as there are 2 people to help a 150+ student class for one hour isn&#039;t enough time to learn the stuff especially when the lecture slides don&#039;t make sense in the first place."
+96,"Neither agree nor disagree",Anxious,"Having tutorial videos instead of just lecture slides",
+97,Disagree,Anxious,"Video showing how to use it in further detail",
+98,"Strongly agree","Not particularly anxious","Maybe show how to do very basic things at the start such as how to import data as it took me a couple of weeks to realise I was suppose to import the data and not type it all out. Other than that I think it was good!",
+99,Disagree,"Very anxious","I think actual demonstration videos would be very helpful.",
+100,Agree,"Not particularly anxious","More examples within the PowerPoints",
+101,"Strongly agree","Not particularly anxious","Even more practice questions, or a list of all the preloaded data sets in R and a list of questions that can be done for all of them.",N/A
+102,Agree,"Not particularly anxious","more videos showing examples",
+103,Agree,"Not particularly anxious","I think the materials are fine, it takes a while to get adjusted to R but eventually it clicks in and it becomes easy",
+104,Agree,Anxious,"have pre recorded videos of lecturers using the code and completing questions that we can follow",
+105,Disagree,"Very anxious","give more examples on using R in practice",
+106,Agree,"Not particularly anxious","they are okay","no every thing is okay"
+107,"Neither agree nor disagree",Anxious,"The materials that are already provided help a lot. I think I feel just anxious because I have never used R or anything like it before so I probably just need to get used to using it.",
+108,"Strongly disagree","Very anxious","video lectures",
+109,Agree,"Not particularly anxious","List of all the codes needed for each topic in a document/pdf. eg. 
+mean = mean(  ) 
+percentile = quantile(data, {percentile being used here}, type=6) 
+etc.",
+110,Agree,"Not particularly anxious","if there was more instructions/help included in the lecture slides",no
+111,"Neither agree nor disagree",Anxious,"maybe some videos describing what do do for some example questions",
+112,Disagree,Anxious,"More prerecorded or live lectures which run through the slides/how to use R.",
+113,Agree,Anxious,"Personally I do not think the materials need to be improved as they are very clear and helpful.",
+114,Disagree,"Not particularly anxious","More examples and maybe lectures going through the examples and explaining it more",
+115,"Neither agree nor disagree","Not particularly anxious","record the slides like you did at the beginning",
+116,Agree,"Not particularly anxious","I personally think its fine as is.",
+117,Agree,"Not particularly anxious","Perhaps some more visual aids in the materials would be helpful for some as I found working with normal/inverse distributions much easier after watching a video on youtube that clearly and visually explained their function and differences.","I find that most students are really reluctant to contribute in the breakout rooms though I think they are very useful when everyone is jumping in and helping each other. It doesn&#039;t help that everyone is working at different parts of the coursework so they tend to just work quietly away. It might be helpful to have seperate problems with required reading to solve as a group in the breakout rooms to force participation and active learning."
