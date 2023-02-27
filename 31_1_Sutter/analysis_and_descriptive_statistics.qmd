@@ -1,0 +1,15 @@
+---
+title: "Analysis_and_Descriptive_Statistics"
+format: pdf
+editor: visual
+---
+
+# Student Concerns and Perceived Challenges in Introductory Statistics, how the Frequency shifted during COVID-19, and
+
+how they differ by Subgroups of Students
+
+## Study 1a (Pre- and Mid-Pandemic Cohorts)
+
+### (1) What concerns did students have about their introductory statistics course? (see Table 2)
+
+FREQUENCIES VARIABLES=cw_w\_1 cw_u\_1 cw_r\_1 vc_1 ss_tm_1 ss_r\_1 ss_m\_1 ss_fm_1 ss_se_1 le_pk_1 le_ts_1 e_m\_1 e_p\_1 pp_p\_1 pp_sc_1 pp_gw_1 c_eo_1 ps_hwb_1 ps_fb_1 ps_pls_1 ps_fnb_1 ps_pro_1 o_dnf_1 o_a\_1 o_n\_1
