@@ -1,15 +1,74 @@
 ---
-title: "Analysis_and_Descriptive_Statistics"
+title: "Replicating Analysis and Descriptive Statisitcs"
 format: pdf
 editor: visual
+author: Abbey Skinner
 ---
 
 # Student Concerns and Perceived Challenges in Introductory Statistics, how the Frequency shifted during COVID-19, and
 
-how they differ by Subgroups of Students
+```{r}
+library(tidyverse)
+library(gmodels)
+```
 
-## Study 1a (Pre- and Mid-Pandemic Cohorts)
+```{r}
+data <- read.csv("/Users/abbeyskinner/Dropbox/My Mac (MacBook Pro)/Desktop/Amherst/ Intern Work/JSDSE-volume31/31_1_Sutter/Supplement_Data_deidentified.csv")
+```
 
-### (1) What concerns did students have about their introductory statistics course? (see Table 2)
+```{r, results = 'hide'}
+## Figuring out what the variables are 
 
-FREQUENCIES VARIABLES=cw_w\_1 cw_u\_1 cw_r\_1 vc_1 ss_tm_1 ss_r\_1 ss_m\_1 ss_fm_1 ss_se_1 le_pk_1 le_ts_1 e_m\_1 e_p\_1 pp_p\_1 pp_sc_1 pp_gw_1 c_eo_1 ps_hwb_1 ps_fb_1 ps_pls_1 ps_fnb_1 ps_pro_1 o_dnf_1 o_a\_1 o_n\_1
+count(data, urm)  ##  0 = Non-URM; 1 = URM; -99 = MISSING
+count(data, gender) ## 0 = Male; 1 = Female; 2 = Non-Binary; -99 = MISSING
+count(data, covid) ## 0 = ??; 1 = ?? (either pre-covid or mid-covid)
+
+## CODEBOOK (for survey questions): 
+###### -99 = MISSING; 0 = No Concern; 1 = Concern
+
+count(data, cw_r_1) ## R Coding
+count(data, cw_u_1) #Understanding concepts
+count(data, cw_w_1) # Workload 
+count(data, vc_1) # virtual learning
+count(data, ss_tm_1) # time management
+count(data, ss_r_1) # inaccessabile resources
+count(data, ss_m_1) # motivation
+count(data, ss_fm_1) # fixed mindset
+count(data, ss_se_1) # study environment
+count(data, le_pk_1) # lack of proir knowledge
+count(data, le_ts_1) # transfer student
+count(data, e_m_1) # memorizing
+count(data, e_p_1) # performance
+count(data, pp_p_1) # instructor
+count(data, pp_sc_1) # social comparison
+count(data, pp_gw_1) # group work
+count(data, c_eo_1) # external obligations
+count(data, ps_hwb_1) # physical/mental health
+count(data, ps_fb_1) # financial burdens
+count(data, ps_pls_1) # personal struggles unrelated to health/finances
+count(data, ps_fnb_1) # non-belonging & isolation
+count(data, ps_pro_1) # pandemic related concerns
+count(data, o_n_1) ## no concerns
+
+```
+
+```{r}
+table2_data <- data%>%
+  select(urm, gender, covid, cw_r_1, cw_u_1, cw_w_1, vc_1, ss_tm_1, ss_r_1, ss_m_1, ss_fm_1, ss_se_1,  le_pk_1, le_ts_1, e_m_1, e_p_1, pp_p_1, pp_sc_1, pp_gw_1, c_eo_1, ps_hwb_1, ps_fb_1,  ps_pls_1, ps_fnb_1, ps_pro_1, o_n_1 )%>% ## variables in Table 2
+  rename(r_coding = cw_r_1, understanding_concepts = cw_u_1, workload = cw_w_1, virtual_learning = vc_1, time_management = ss_tm_1, inaccessabile_resources = ss_r_1, motivation = ss_m_1, fixed_mindset = ss_fm_1, study_enviornment = ss_se_1, lack_of_prior_knowledge = le_pk_1, transfer_student = le_ts_1, memorizing = e_m_1, performance = e_p_1, instructor = pp_p_1, social_comparison = pp_sc_1, group_work = pp_gw_1, external_obligations = c_eo_1, physical_mental_health = ps_hwb_1, financial_burdens = ps_fb_1, personal_struggles_unrelated_to_health_finances = ps_pls_1, non_belonging_isolation = ps_fnb_1, pandemic_related_concerns = ps_pro_1, no_concerns = o_n_1 ) %>% ## rename them
+  filter(r_coding >= 0) ## remove missing values
+```
+
+```{r}
+
+gender_table <- table2_data %>%
+  select(-c(urm, covid))%>%
+  group_by(gender)%>%
+  filter(gender >= 0)
+
+gender_table 
+
+CrossTable(gender_table$r_coding, gender_table$gender, prop.c=TRUE) 
+## could do this for each question ...  is there a better way? 
+## the proportions in table 2 are the 4th row in the 2nd block
+```
